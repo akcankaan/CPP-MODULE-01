@@ -6,14 +6,14 @@ FileReplacer::FileReplacer(std::string filename, std::string s1, std::string s2)
 FileReplacer::~FileReplacer() {}
 
 bool FileReplacer::replace() {
-    std::ifstream inputFile(filename);
+    std::ifstream inputFile(filename.c_str());
     if (!inputFile) {
         std::cerr << "Error: Cannot open file " << filename << std::endl;
         return false;
     }
 
     std::string newFilename = filename + ".replace";
-    std::ofstream outputFile(newFilename);
+    std::ofstream outputFile(newFilename.c_str());
     if (!outputFile) {
         std::cerr << "Error: Cannot create file " << newFilename << std::endl;
         return false;
