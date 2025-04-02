@@ -41,3 +41,24 @@ cd ex00
 make
 ./<çalıştırılabilir_dosya_adı>
 ```
+
+## 🚫 Kurallar ve Yasaklar
+- C fonksiyonları (printf, malloc, free...) yasaktır.
+- std::string::replace fonksiyonu ex04 için yasaktır.
+- using namespace std, friend gibi ifadeler yasaktır.
+- STL kullanımı yalnızca Modül 08 ve sonrasında serbesttir.
+- Her çıktı newline karakteriyle bitmelidir.
+- Header dosyalarında include guard kullanılmalıdır.
+
+## ✅ Teslimat
+- Proje, Git üzerinden değerlendirilir.
+- Dosya isimleri ve klasör yapısı belirtilen şekilde olmalıdır.
+- Kod okunabilir ve anlaşılır olmalıdır.
+
+## 🧠 Notlar
+- Kodunuzu yazmadan önce tüm modülü okuyun.
+- Bellek sızıntısı kontrolü yapmayı unutmayın.
+- Her başlık altında yer alan örnek çıktılar, beklenen davranışı açıkça gösterir.
+
+## 🧑‍💻 Yazar
+Mehmet Kaan Akcan 42 Kocaeli / [https://github.com/akcankaan]
